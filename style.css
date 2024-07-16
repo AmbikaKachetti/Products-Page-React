@@ -57,6 +57,7 @@ span, b{
     display: flex;
     background-color: #97f3c0;
     overflow: hidden;
+    align-items: center;
 }
 .para_style {
     display: -webkit-box;
@@ -88,7 +89,6 @@ span, b{
     background-color:  #fbff00;
     border-radius: 12px;
     text-align: center;
-    align-self: center;
 }
 .image{
     height: 200px;
@@ -96,7 +96,6 @@ span, b{
     border-radius: 30px;
     padding: 20px;
     background-color: #fff;
-    margin: 18PX 10px;
 }
 .card_details{
     justify-content: space-between;
