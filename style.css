@@ -49,17 +49,19 @@ span, b{
 .each_card{
     border-radius: 10px;
     margin: 10px;
+    height: 280px;
     box-sizing: border-box;
     width: 40%;
     border: 1px solid rgb(255, 190, 190);
     padding: 20px;
     display: flex;
     background-color: #97f3c0;
+    overflow: hidden;
 }
 .para_style {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -82,7 +84,7 @@ span, b{
 .cart_image{
     height: 70px;
     width: 70px;
-    padding: 25px 30px 5px 5px;
+    padding: 20px 30px 5px 5px;
     background-color:  #fbff00;
     border-radius: 12px;
     text-align: center;
@@ -93,9 +95,12 @@ span, b{
     border-radius: 30px;
     padding: 20px;
     background-color: #fff;
-    margin: 30PX 10px;
+    margin: 18PX 10px;
 }
 .card_details{
+    justify-content: space-between;
+    overflow: hidden;
+    flex: 1;
     background-color: #ffffff; 
     width: 90vw;
     border-radius: 10px;
